@@ -1,7 +1,5 @@
 # BVAccel CSS / Sass Styleguide
-## Adapted from the Airbnb CSS / Sass Styleguide
-
-*A largely reasonable approach to CSS and Sass*
+*Adapted from the [Airbnb CSS / Sass Styleguide](https://github.com/airbnb/css)*
 
 ## Table of Contents
 
