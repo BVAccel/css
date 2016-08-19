@@ -1,0 +1,44 @@
+{
+  "extends": [],
+  plugins: [
+    'stylelint-scss',
+  ],
+  "ignoreFiles": [
+    "dev/styles/bvaccel.scss",
+    "dev/styles/helpers/_variables.scss",
+    "dev/styles/base/_normalize.scss"
+  ],
+  "rules": {
+    'at-rule-empty-line-before': 'never',
+    "block-closing-brace-newline-before": "always",
+    "block-opening-brace-newline-after": "always",
+    "block-opening-brace-space-before": "always",
+    "block-no-empty": true,
+    "block-no-single-line": true,
+    "color-hex-case": "lower",
+    "color-hex-length": "long",
+    'comment-empty-line-before': ['always', {
+      ignore: ['stylelint-commands'],
+    }],
+    "declaration-block-no-duplicate-properties": [true, {
+      ignore: ["consecutive-duplicates"]
+    }],
+    "declaration-block-trailing-semicolon": "always",
+    "declaration-colon-space-after": "always",
+    "declaration-colon-space-before": "never"
+    "indentation": 2,
+    'max-nesting-depth': 3,
+    'no-invalid-double-slash-comments': true,
+    'rule-non-nested-empty-line-before': ['always', {
+      ignore: ['after-comment'],
+    }],
+    "selector-combinator-space-after": "always",
+    "selector-combinator-space-before": "always",
+    "selector-list-comma-newline-after": "always",
+    'selector-no-id': true,
+    'scss/dollar-variable-pattern': '^foo',
+    'declaration-property-value-blacklist': {
+      '/^border/': ['none'],
+    }
+  }
+}
